@@ -54,3 +54,39 @@ body {
 .my-bg-primary {
     background: #FF9900;
 }
+
+.about {
+    background-color: rgba(255, 153, 0, 0.1);
+}
+
+.my-card {
+    background: none;
+    border: 0;
+}
+
+.my-rounded {
+    border: none;
+    width: 50px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+.bg-test1 {
+    background-color: #7625c2;
+    box-shadow: 6px 6px 2px 0 rgba(118, 37, 194, 0.2);
+}
+
+.bg-test2 {
+    background-color: #FF9900;
+    box-shadow: 6px 6px 2px 0 rgba(255, 153, 0, 0.2);
+}
+
+.bg-test3 {
+    background-color: #dd2d2d;
+    box-shadow: 6px 6px 2px 0 rgba(221, 45, 45, 0.2);
+}
+
+.bg-test4 {
+    background-color: #2bbffa;
+    box-shadow: 6px 6px 2px 0 rgba(43, 191, 250, 0.2);
+}
