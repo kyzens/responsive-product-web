@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.herobwa h1 {
+    font-weight: bold;
+}
+
+.herobwa p {
+    font-weight: lighter;
+}
+
+.my-btn-primary {
+    background: #FF9900;
+    color: #fff;
+    border: 0;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.my-btn-primary:hover {
+    background: #dd8500;
+    color: #fff;
+}
+
+.my-btn-navin {
+    border: 1px solid #ccc;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.my-btn-navin:hover {
+    border: 1px solid #aaaaaa;
+}
+
+.my-btn-navup {
+    background: #FF9900;
+    border: 1px solid #FF9900;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.my-btn-navup:hover {
+    background: #dd8500;
+    color: #fff;
+}
+
+.my-bg-primary {
+    background: #FF9900;
+}
