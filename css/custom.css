@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    min-height: 3000px;
 }
 
 .herobwa h1 {
@@ -55,13 +56,22 @@ body {
     background: #FF9900;
 }
 
-.about {
+.tools {
     background-color: rgba(255, 153, 0, 0.1);
 }
 
 .my-card {
     background: none;
     border: 0;
+}
+
+.my-card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.my-card a:hover {
+    color: #FF9900;
 }
 
 .my-rounded {
@@ -89,4 +99,32 @@ body {
 .bg-test4 {
     background-color: #2bbffa;
     box-shadow: 6px 6px 2px 0 rgba(43, 191, 250, 0.2);
+}
+
+.my-text-small {
+    font-size: 0.8rem;
+}
+
+.marketing .owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.marketing .owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+}
+
+.marketing .owl-carousel .owl-dots .owl-dot span {
+    background-color: #ff990059;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 50px 3px;
+} 
+
+.marketing .owl-carousel .owl-dots .owl-dot.active span,
+.marketing .owl-carousel .owl-dots .owl-dot:hover span {
+    background-color: #FF9900;
 }
